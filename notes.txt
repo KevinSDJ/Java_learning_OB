@@ -1,0 +1,13 @@
+Polimorfismo:
+
+Una clase padre o madre puede tener muchas formas , por ejemplo , las  clases moto , bicicleta y auto son hijos
+de la clase Vehiculo , comparten caracteristicas y a su ves cada clase hija tiene las suyas propias,
+pero no dejan de ser del mismo tipo.
+
+
+
+'' dato char
+"" string
+
+ListMain sirve para crear listas dinamicas;
+[] o Array se debe establecer la longuitud
