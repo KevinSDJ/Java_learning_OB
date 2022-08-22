@@ -22,4 +22,19 @@ public class SmartWatch extends SmartDevice{
             System.out.println("size device is not valid");
         }
     }
+
+
+    @Override
+    public String toString() {
+        return "SmartWatch{" +
+                "cardiacSensor=" + cardiacSensor +
+                ", stepsCounter=" + stepsCounter +
+                ", waterproof=" + waterproof +
+                ", sizeDevice=" + sizeDevice +
+                ", so='" + so + '\'' +
+                ", network='" + network + '\'' +
+                ", ram=" + ram +
+                ", processModel='" + processModel + '\'' +
+                '}';
+    }
 }

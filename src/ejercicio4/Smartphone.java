@@ -20,4 +20,18 @@ public class Smartphone extends SmartDevice{
             System.out.println("This size device is not valid");
         }
     }
+
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "cameraPixel=" + cameraPixel +
+                ", cameraQuantity=" + cameraQuantity +
+                ", sizeDevice=" + sizeDevice +
+                ", so='" + so + '\'' +
+                ", network='" + network + '\'' +
+                ", ram=" + ram +
+                ", processModel='" + processModel + '\'' +
+                '}';
+    }
 }

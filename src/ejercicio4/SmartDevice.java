@@ -20,4 +20,15 @@ public class SmartDevice {
     public static void onTouch(){
         System.out.println("Touch");
     }
+
+    @Override
+    public String toString() {
+        return "SmartDevice{" +
+                "sizeDevice=" + sizeDevice +
+                ", so='" + so + '\'' +
+                ", network='" + network + '\'' +
+                ", ram=" + ram +
+                ", processModel='" + processModel + '\'' +
+                '}';
+    }
 }
